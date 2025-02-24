@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.mainContent {
+    flex-grow: 1;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebarOpen {
+    margin-left: 240px; /* Expanded sidebar */
+}
+
+.sidebarClosed {
+    margin-left: 64px; /* Collapsed sidebar */
+}
+  

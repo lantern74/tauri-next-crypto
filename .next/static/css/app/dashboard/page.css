@@ -1,0 +1,70 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/dashboard/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.page_dashboard__kNuGp {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .page_title__st_eQ {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .page_grid__P1RQ3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 16px;
+    gap: 16px;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .page_card__FwMm5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.2s, background 0.3s;
+  }
+  
+  .page_card__FwMm5:hover {
+    transform: scale(1.05);
+  }
+  
+  .page_selected__g5mas {
+    background: #007bff;
+  }
+  
+  .page_icon__YfJ__ {
+    margin-bottom: 10px;
+  }
+  
+  .page_text__Ttl93 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .page_checkbox__QOY_r {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,115 @@
+/* Sidebar */
+.sidebar {
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+  position: fixed;
+  left: 0;
+  overflow: hidden;
+  z-index: 1000;
+  align-items: center; /* ✅ Keeps items centered */
+}
+
+/* Expanded Sidebar */
+.expanded {
+  width: 240px;
+  align-items: flex-start; /* ✅ Align items to left */
+}
+
+/* Collapsed Sidebar */
+.collapsed {
+  width: 64px;
+  align-items: center; /* ✅ Ensures everything is centered */
+}
+
+/* Sidebar Header (Toggle Button) */
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ✅ Centers button in collapsed mode */
+  padding: 16px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Toggle Button */
+.menuButton {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Sidebar Navigation */
+.nav {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Sidebar Items */
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+/* Collapsed Sidebar: Keep Icons, Hide Text */
+.collapsed .navItem {
+  justify-content: center; /* ✅ Center icons */
+  padding: 12px 0;
+}
+
+/* Ensure Icons Always Stay Visible */
+.navItem svg {
+  margin-right: 12px;
+  transition: margin 0.3s ease;
+}
+
+/* Ensure Icons Stay Visible */
+.collapsed .navItem svg {
+  margin-right: 0; /* ✅ Centers icons */
+  display: block; /* ✅ Keeps icons visible */
+}
+
+/* Hover Effect */
+.navItem:hover {
+  background-color: #333;
+}
+
+.show {
+  display: inline;
+}
+.hide {
+  display: none;
+}
+
+.title {
+  margin: 0;
+}
+
+.active {
+  background-color: #333; /* ✅ Change background for active page */
+  border-left: 4px solid #007bff; /* ✅ Blue left border */
+}
+
