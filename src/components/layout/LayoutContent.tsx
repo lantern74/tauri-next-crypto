@@ -12,7 +12,7 @@ const LayoutContent = ({ children }: { children: React.ReactNode }) => {
             <Sidebar />
             <div className={`${styles.mainContent} ${isOpen ? styles.sidebarOpen : styles.sidebarClosed}`}>
                 <Navbar />
-                <main>{children}</main>
+                <main className={styles.mainSection}>{children}</main>
             </div>
         </div>
     );

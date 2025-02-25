@@ -50,7 +50,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  transition: width 0.3s ease;
+  transition: width 0.3s ease-in-out;
   position: fixed;
   left: 0;
   overflow: hidden;
@@ -178,6 +178,9 @@
 
 .LayoutContent_sidebarClosed__a8Ju2 {
     margin-left: 64px; /* Collapsed sidebar */
+}
+.LayoutContent_mainSection__ZTQRI {
+    padding: 20px;
 }
   
 /*!********************************************************************************************************************************************************************************************************************************************************************!*\

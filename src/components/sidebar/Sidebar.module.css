@@ -5,7 +5,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  transition: width 0.3s ease;
+  transition: width 0.3s ease-in-out;
   position: fixed;
   left: 0;
   overflow: hidden;

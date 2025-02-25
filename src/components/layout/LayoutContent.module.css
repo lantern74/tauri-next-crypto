@@ -15,4 +15,7 @@
 .sidebarClosed {
     margin-left: 64px; /* Collapsed sidebar */
 }
+.mainSection {
+    padding: 20px;
+}
   
